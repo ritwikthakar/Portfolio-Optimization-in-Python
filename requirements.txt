@@ -1,0 +1,8 @@
+streamlit>=0.78.0
+yfinance
+pandas
+plotly
+PyPortfolioOpt
+plotly
+matplotlib
+seaborn
