@@ -137,8 +137,8 @@ st.plotly_chart(fig_cum_returns_optimized)
 st.subheader("Optimized Max Sharpe Portfolio Weights")
 st.dataframe(weights_df)
 
-st.subheader("Optimized Max Sharpe Portfolio Performance")
-st.image(fig_efficient_frontier)
+# st.subheader("Optimized Max Sharpe Portfolio Performance")
+# st.image(fig_efficient_frontier)
 
 st.subheader('Expected annual return: {}%'.format((expected_annual_return*100).round(2)))
 st.subheader('Annual volatility: {}%'.format((annual_volatility*100).round(2)))
